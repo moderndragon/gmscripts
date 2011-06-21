@@ -1,0 +1,5 @@
+#!/bin/bash
+for i in *
+do
+ gm convert "$i" -rotate +90 "h_${i%}"
+done

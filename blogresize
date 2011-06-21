@@ -1,0 +1,9 @@
+#!/bin/bash
+# skript, um Bilder auf meine gewohnte Blog-Dimension zu verkleinern
+echo "Bitte gib die gewünschte Bildbreite ein und drücke ENTER!"
+read breite
+for i in *.png
+do
+  gm convert -resize $breite "$i" "t_${i%}"
+done
+#fi
