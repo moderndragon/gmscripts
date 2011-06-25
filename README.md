@@ -1,4 +1,4 @@
-# gmscripts collection
+# gmscripts collection ![isgitflowed logo](http://isgitflowed.com/gitflowed_68x13.png)
 
 This is a small collection of graphicsmagick scripts I use for oft-needed batch image operations, such as 
 
